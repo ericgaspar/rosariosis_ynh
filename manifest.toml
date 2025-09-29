@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "RosarioSIS"
 name = "rosariosis"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Student Information System for school management"
+description.fr = "Système d'information scolaire pour la gestion des établissements scolaires"
 
 version = "12.4.2~ynh1"
 
@@ -13,11 +13,11 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "free"
-website = "https://example.com"
-demo = "https://demo.example.com"
+website = "https://www.rosariosis.org/"
+demo = "https://www.rosariosis.org/demo/"
 admindoc = "https://yunohost.org/packaging_apps"
 userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+code = "https://gitlab.com/francoisjacquet/rosariosis"
 
 [integration]
 yunohost = ">= 12.1.17"
